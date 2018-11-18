@@ -2,6 +2,12 @@
 
     Understanding the basic and core consepts of typescript
 
+### Key Notes:
+
+    1. extends --> used to extend another class - Known for Inheritance.
+
+    2. implements --> used to implements same as an interface structure with required properties.
+
 ### Command References:
 
     1. tsc --init --> to generate tsconfig.json with basic configurations.
