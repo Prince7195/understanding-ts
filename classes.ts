@@ -1,6 +1,6 @@
 class Person {
   public name: string;
-  private type: string;
+  private type: string | undefined;
   protected age: number = 24;
 
   constructor(name: string, public userName: string) {
