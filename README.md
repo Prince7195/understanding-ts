@@ -14,4 +14,10 @@
 
     2. tsc --> to compaile all ts files.
 
-    3. tsc --outFile app.js order1file.ts order2file.ts etc.., --> bundles all ts files into one js file based on the mentioned files order.
+    3. tsc filename.ts  --> compile particular file.
+
+    4. tsc -w --> watches for ts files change.
+
+    5. tsc filename.ts -w  --> watches for particular ts file change.
+
+    6. tsc --outFile app.js order1file.ts order2file.ts etc.., --> bundles all ts files into one js file based on the mentioned files order.
